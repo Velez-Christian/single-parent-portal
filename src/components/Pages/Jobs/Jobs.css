@@ -1,0 +1,83 @@
+.job-page {
+    padding: 2rem;
+    background-image: url('/src/images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .h1 {
+    text-align: center;
+    color: #000000;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .input {
+    padding: 0.5rem;
+    width: 520px;
+  }
+  
+  .button {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 34px;
+  }
+  
+  .job-listings,
+  .job-offers,
+  .recommended-jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .job-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  
+  .job-card {
+    position: relative;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    background-color: #fff;
+  }
+  
+  .job-card h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .apply-button {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .apply-button:hover {
+    background-color: #555;
+  }
+  

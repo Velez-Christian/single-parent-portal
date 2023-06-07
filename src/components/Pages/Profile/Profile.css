@@ -1,0 +1,78 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-image: url('/src/images/bg.jpg');
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .name {
+    margin: 1rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .title {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .location {
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+  
+  .contact {
+    margin-bottom: 0.5rem;
+  }
+  
+  .work-experience,
+  .employer-feedback {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 2rem;
+  }
+  
+  .experience-item,
+  .feedback-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .company {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .position {
+    margin-bottom: 0.5rem;
+  }
+  
+  .duration {
+    font-style: italic;
+  }
+  
+  .description,
+  .feedback {
+    margin-bottom: 1rem;
+  }
+  
+  /* Interactive Styles */
+  
+  .experience-item:hover,
+  .feedback-item:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  

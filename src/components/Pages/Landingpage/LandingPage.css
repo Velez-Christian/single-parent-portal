@@ -1,0 +1,121 @@
+.landing-page {
+    background-image: url('/src/images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17rem;
+    padding-top: 12rem;
+  }
+  
+  .landing-page-content {
+    text-align: center;
+    color: #333;
+  }
+  
+  .landing-page-content h1,
+  .landing-page-content h2,
+  .landing-page-content h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .landing-page-content p {
+    margin: 0;
+    color: #333;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .search-container input[type="text"] {
+    width: 400px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-container button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    height: 39.9px;
+  }
+  
+  .search-container button:hover {
+    background-color: #555;
+  }
+  
+  .recommendations {
+    margin-top: 50px;
+  }
+  
+  .job-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .job-item {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-item h3 {
+    margin: 0;
+  }
+  
+  .job-item p {
+    margin: 0;
+    color: #888;
+  }
+
+  .job-item {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-details {
+    flex: 1;
+  }
+  
+  .job-details h3 {
+    margin: 0;
+    text-align: left;
+  }
+  
+  .job-details p {
+    margin: 0;
+    text-align: left;
+  }
+  
+  .apply-button {
+    margin-left: auto;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .apply-button:hover {
+    background-color: #555;
+  }
