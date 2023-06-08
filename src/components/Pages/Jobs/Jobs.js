@@ -85,7 +85,7 @@ const Jobs = () => {
               <h3>{job.title}</h3>
               <p>{job.company}</p>
               <p>{job.location}</p>
-              <button className="apply-button" onClick={() => handleApply(job.id)}>
+              <button className="apply-button jobs" onClick={() => handleApply(job.id)}>
                 Apply
               </button>
             </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import './LandingPage.css';
 
+
 function LandingPage() {
   // Sample data for recommended jobs
   const recommendedJobs = [
@@ -32,7 +33,7 @@ function LandingPage() {
                   <h3>{job.title}</h3>
                   <p>{job.company}</p>
                 </div>
-                <button className="apply-button" onClick={() => handleApply(job.id)}>
+                <button className="apply-button landing" onClick={() => handleApply(job.id)}>
                   Apply
                 </button>
               </li>
